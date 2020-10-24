@@ -1,0 +1,33 @@
+{
+  "name": "my-construct",
+  "version": "0.1.0",
+  "author": "neta",
+  "repository": "https://github.com/aws/aws-cdk.git",
+  "license": "Unlicensed",
+  "bin": {
+    "my-construct": "bin/my-construct.js"
+  },
+  "scripts": {
+    "build": "jsii",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "aws-cdk": "1.70.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.9.7",
+    "monocdk": "1.70.0",
+    "constructs": "3.0.4"
+  },
+  "peerDependencies": {
+    "monocdk": "^1.70.0",
+    "constructs": "3.0.4"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "other-construct",
+  "version": "0.1.0",
+  "author": "neta",
+  "repository": "github",
+  "license": "Unlicensed",
+  "bin": {
+    "other-construct": "bin/other-construct.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "aws-cdk": "1.70.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.9.7",
+    "monocdk": "1.70.0",
+    "constructs": "3.0.4"
+  },
+  "peerDependencies": {
+    "monocdk": "^1.70.0",
+    "constructs": "^3.0.4"
+  },
+  "dependencies": {
+  }
+}

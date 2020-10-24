@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.21.0",
+    "jsii": "1.13.0",
+    "jsii-pacmak": "1.13.0"
+  }
+}
